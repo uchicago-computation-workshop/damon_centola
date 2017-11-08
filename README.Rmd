@@ -12,8 +12,9 @@ library(stringr)
 
 date <- "11/09/2017"
 vendor <- "Pizza Capri"
-title <- "Title of Talk"
-file_title <- "Title of Talk"
+title <- "Network dynamics of social influence in the wisdom
+of crowds"
+file_title <- "Wisdom of Crowds"
 short_title_n = 3
 speaker <- "Damon Centola"
 department <- "Associate Professor in the Annenberg School for Communication, Director of the Network Dynamics Group"
@@ -119,9 +120,15 @@ short_title_clean <- str_replace_all(short_title, punct, "")
 
 <br><br>
 
+<!--Insert Abstract Here-->
+
+<p class=footertext2> 
+**Abstract:** Since the discovery of the wisdom of crowds over 100 years ago theories of collective intelligence have held that group accuracy requires either statistical independence or informational diversity among individual beliefs. Empirical evidence suggests that allowing people to observe the beliefs of others leads to increased similarity of individual estimates, reducing independence and diversity without a corresponding increase in group accuracy. As a result, social influence is expected to undermine the wisdom of crowds. We present theoretical predictions and experimental findings demonstrating that, in decentralized networks, social influence generates learning dynamics that reliably improve the wisdom of crowds. We identify general conditions under which influence, not independence, produces the most accurate group judgments.
+</p>
+
+<br>
+
 <!--Insert Faculty Bio Here-->
-
-
 
 <p class=footertext2> 
 
